@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenges Oracle ONE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./img/logoA.svg" alt="logo com a letra A minuscula na cor Azul">
+      </div>
+    </header>
+    <main>
+      <section>
+        <textarea name="texto" class="text-area" id="input-textarea" cols="41" rows="8" placeholder="Digite seu texto"
+          alt=" Campo para digitar um texto"></textarea>
+        <div class="informacao">
+          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16ZM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm10-2a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0v-5a1 1 0 0 1 1-1Z"
+              clip-rule="evenodd"></path>
+            <path d="M13 7.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
+          </svg>
+          <h6>Apenas letras minúsculas e sem acento.</h6>
+        </div>
+        <div class="botoes">
+          <button class="btn-encriptar" onclick="btn_encriptar()">Criptografar</button>
+          <button class="btn-descriptar"  onclick="btn_desencriptar()">Descriptografar</button>
+        </div>
+      </section>
+
+      <section>
+        <textarea name="mensagem" class="mensagem" id="input-textarea" cols="20" rows="10"></textarea>
+        <button class="btn-copiar">Cópiar</button>
+      </section>
+    </main>
+  
+    
+    <footer class="rodape">
+      <div class="icons">
+        <a href="https://github.com/Graciliana"><ion-icon name="logo-github" alt="logo github"></ion-icon></a>
+      </div>
+      <p>Authora: < Graciliana Kascher /><br>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

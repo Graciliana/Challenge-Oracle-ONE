@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+}
+
+.logo {
+	width: 100%;
+	height: 50px;
+	position: relative;
+	animation: mymove 5s infinite;
+	animation-timing-function: linear;
+	margin: 1rem;
+	paddig: 1rem;
+	white: 10%;
+}
+
+@keyframes mymove {
+	from {
+		left: 0px;
+	}
+	to {
+		left: 1600px;
+	}
+}
+
+body {
+	background: rgb(34, 193, 195);
+	background: linear-gradient(
+		22deg,
+		rgba(34, 193, 195, 1) 0%,
+		rgba(253, 45, 133, 1) 100%
+	);
+	color: white;
+	height: 100vh;
+	box-sizing: border-box;
+}
+main {
+	display: flex;
+	margin-bottom: 50px;
+	margin-left: 80px;
+}
+.text-area {
+	border: none;
+	color: #0a3871;
+	text-transform: lowercase;
+}
+::placeholder {
+	color: #0a3871;
+}
+.text-area:focus {
+	outline: none;
+	resize:none;
+}
+.mensagem {
+  background-image: url(./img/personWatching.svg);
+  background-repeat: no-repeat;
+  border:none;
+  border-radius:24px;
+  color: #0a3871;
+  margin-left:98px;
+  margin-top:10px;
+  paddig-left:20px;
+  position:fixed;
+  resize:none;
+}
+.mensagem:focus {
+  outline: none;
+  resize:none;
+}
+.botoes {
+  display: flex;
+  margin-top: 18px;
+}
+.btn-encriptar {
+  background-color: #0a3871;
+  border: 1px solid #0a3871;
+  border-radius:24px;
+  cursor: pointer;
+  height:67px;
+  width:328px;
+  color:#d8dfe8;
+}
+.btn-descriptar {
+  background-color: color: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius:24px;
+  height:67px;
+  width:328px;
+  color:#0a3871;
+  cursor: pointer;
+  margin-left:30px;
+}
+
+.btn-copiar{
+  background-color: color: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius:24px;
+  height:67px;
+  width:328px;
+  color:#0a3871;
+  cursor: pointer;
+  margin-left:108px;
+  margin-top:402px;
+  position:absolute;
+
+}
+.informacao {
+  color:#495057;
+  font-size:18px;
+  display:flex;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px ;
+    background:var(--corprincipal) ;
+    color: var(--cortitulo);
+}
+
+.rodape position{
+    font-size: 16px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--cortitulo);
+}
+
+.icons ion-icon:hover{
+    color: var(--corsegundaria);
+}
