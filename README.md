@@ -45,7 +45,7 @@ Utilizado algumas ferramentas e bibliotecas para o desenvolvi
 | -------------  | --- |
 | :sparkles: Nome        | **Graciliana - CRIPTOGRAFIA**
 | :label: Tecnologias | javaScript, html, css
-| :rocket: URL         | <https://3-d-portfolio-puce.vercel.app/>
+| :rocket: URL         | <https://graciliana.github.io/Challenge-Oracle-ONE/>
 | :fire: Desafio     | Construir um decodificador de texto com Javascript
 
 ## Disclaimer
