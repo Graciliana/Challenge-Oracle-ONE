@@ -3,7 +3,7 @@
 
 ## Seja bem vindo ao projeto base do Decodificador de texto! Passos fundamentais
 
-     <img width="600" heigth="600" src="./homeInicial.png">
+![pagina inical do site](<https://github.com/Graciliana/Challenge-Oracle-ONE/blob/main/img/homeInicial.png>)
 
 ### Marque esse projeto com uma estrela ⭐
 
