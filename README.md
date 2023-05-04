@@ -30,6 +30,7 @@ A letra "u" é convertida para "ufat"
 
 Por exemplo:
 "gato" => "gaitober"
+
 gaitober" => "gato"
 
 - A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções
