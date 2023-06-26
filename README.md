@@ -48,7 +48,7 @@ Utilizado algumas ferramentas e bibliotecas para o desenvolvi
 | :label: Tecnologias | javaScript, html, css
 | :rocket: URL         | <https://graciliana.github.io/Challenge-Oracle-ONE/>
 | :fire: Desafio     | Construir um decodificador de texto com Javascript
-<img width="48" height="48" src="https://img.icons8.com/color/48/jira.png" alt="jira"/>
+
 
 ## Disclaimer
 
